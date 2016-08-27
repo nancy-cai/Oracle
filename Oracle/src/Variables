@@ -1,0 +1,16 @@
+Local Variables: within a method, constructor and block;
+                 Access modifiers cannot be used for local variables;
+                 Cannot use the keywords that instance and class variables use;
+                 Must assign a value cuz no default value for local v.
+
+Field/Instance/Member Variables: Within a class but outside methods,constr and blocks;
+                           Access modifiers can be given for instance variables;
+                           Have default value;
+                           Can use final,volatile, transient, strict;
+                      
+Class/static variables:Declared with the static keyword in a class, but outside a method, constr or a block;
+                       Constants are variables that are declared as public/private, final and static;
+                       Have default value;
+                       Can be accessed by calling with the class name ClassName.VariableName;
+                       i.e. public final static c. This is a public constant.
+
