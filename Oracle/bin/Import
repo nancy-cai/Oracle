@@ -1,0 +1,18 @@
+The order of head:
+
+package statement;
+import statement;
+class/interface definations.
+
+package com.foo;
+In file /root/com/foo/X.java
+public class Y trys to accessing class X in another package.
+
+classes in the same package can accessing to each other without import anything.
+
+import com.foo.*; //package import does not use static keyword like import static com.foo.*
+
+import static com.foo.X.*;
+import static com.foo.X.Logicid;//import static package.classname.* or package.classname.fieldname.
+
+If Y accessing through X.Logicid, then no static import required.If the code is System.print(Logicid),then static

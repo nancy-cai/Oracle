@@ -3,11 +3,12 @@
 
 public class Polymorphism extends Animals{
 	
-	/*extending an abstract class without implementing all of its abstract method results in a compile-time error,
+	/*extending an abstract class without implementing all of its ABSTRACT method results in a compile-time error,
 	there will be no object of such class, so we can't create an object of this class i.e: */
 	        String talk(){
 	        return "meow";
-	        }
+	        } 
+// when a normal class uses the parent abstract class's abstract methods, we must put body for them. Otherwise it became abstract methods and the child class must be defined as abstract class
 	        
 	        
 	      public static void main(String[] args) {

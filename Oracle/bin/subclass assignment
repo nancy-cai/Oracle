@@ -1,0 +1,31 @@
+
+class Animals {
+
+String getType() { return ¡°animals¡±; }
+
+}
+
+class Mammals extends Animals {
+
+String getType() { return ¡°mammals¡±; }
+
+}
+
+class Cats extends Mammals {
+
+String getType() { return ¡°cat¡±; }
+
+public static void main(String[] args) {
+
+// Cats c1= new Mammals; and Cats c2= new Animals; are wrong cause not all Mammals and Animals are cats;
+
+Mammals c1= new Cats;
+Animals c2= new Cats; // These assignments can be compiled.
+
+System.out.println(g1.getType() + ¡± ¡±
+
++ g2.getType());
+
+}
+
+}
